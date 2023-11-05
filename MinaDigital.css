@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('fondo1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(255, 195, 30, 0.338);
+  padding: 40px;
+  text-align: center;
+}
+
+.main-title {
+  font-family: "Arial Black", sans-serif;
+  font-size: 48px;
+  margin: 20px 0;
+  color: #1c1a1a;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 8px;
+}
+
+header p {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+main {
+  padding: 40px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #1c1a1a;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.main-button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.footer-text {
+  color: #777;
+}
+
+.contact-links {
+  margin-top: 10px;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-links a:hover {
+  color: #007bff;
+}
+
+.contact-links img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}

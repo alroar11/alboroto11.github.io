@@ -5,6 +5,9 @@ body {
   background-image: url('Entre-2006-y-2022-costos-de-inversion-minera-se-multiplicaron-mas-de-5-veces.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -19,6 +22,7 @@ header {
 }
 
 main {
+  flex-grow: 1;
   padding: 20px;
 }
 
@@ -29,7 +33,7 @@ h2 {
 
 .button-container {
   display: flex;
-  flex-direction: column; /* Cambio a dirección de columna */
+  flex-direction: column;
 }
 
 .main-button {
@@ -54,7 +58,6 @@ footer {
   text-align: center;
 }
 
-/* Estilos adicionales para hacer que las imágenes de contacto sean responsive */
 .contact-links img {
   width: 20px;
   height: 20px;
